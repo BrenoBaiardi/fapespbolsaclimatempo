@@ -1,6 +1,6 @@
 # fapespbolsaclimatempo
 
-O programa atualmente conta com 3 classes:
+O programa atualmente conta com 3 classes e depende do servidor mongod estar sendo executado na máquina com configurações padrão:
 
 Scrape - > Utiliza beautifulSoup4 e urllib para acessar o link correspondente ao sensor escolhido
 
