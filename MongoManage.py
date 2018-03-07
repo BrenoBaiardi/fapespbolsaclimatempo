@@ -9,6 +9,7 @@ class MongoManage():
         self.col = self.db.col
 
     def populateCollection(self,arr,label):
+        print("Salvando dados")
         for i in arr:
             aux=i[:]
             #formata o _id para uma string ao invés de utilizar o _id padrão
